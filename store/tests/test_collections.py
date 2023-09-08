@@ -1,5 +1,7 @@
+from store.models import Collection, Product
 from rest_framework import status
 import pytest
+from model_bakery import baker
 
 @pytest.fixture
 def create_collection(api_client):
@@ -11,7 +13,6 @@ def create_collection(api_client):
 class TestCreateCollection:
     def test_if_user_is_anonymous_returns_401(self, create_collection):
         response = create_collection({'title': 'a'})
-        # response = api_client.post('/store/collections/', {'title': 'a'})
 
         assert response.status_code == status.HTTP_401_UNAUTHORIZED
 
@@ -32,8 +33,24 @@ class TestCreateCollection:
 
     def test_if_data_is_valid_returns_201(self, api_client, create_collection, authenticate):
         authenticate(is_staff=True)
-        
+
         response = create_collection({'title': 'a'})
 
         assert response.status_code == status.HTTP_201_CREATED
         assert response.data['id'] > 0
+
+@pytest.mark.django_db
+class TestRetrieveCollection:
+    def test_if_collection_exists_returns_200(self, api_client):
+        # Arrange
+        # baker.make(Product, collection=collection, _quantity=10)
+        collection = baker.make(Collection)
+
+        response = api_client.get(f'/store/collections/{collection.id}/')
+
+        assert response.status_code == status.HTTP_200_OK
+        assert response.data == {
+            'id': collection.id,
+            'title': collection.title,
+            'products_count': 0,
+        }
