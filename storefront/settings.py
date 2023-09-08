@@ -186,3 +186,5 @@ DEFAULT_FROM_EMAIL = 'from@ttcvu.com'
 ADMINS = [
     ('Mosh', 'admin@ttcvu.com')
 ]
+
+CELERY_BROKER_URL = 'redis://localhost:6379/1'
