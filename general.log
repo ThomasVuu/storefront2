@@ -21,3 +21,21 @@ Received the response
 2023-09-09 12:06:44,833 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-09-09 12:06:51,494 (INFO) - playground.views - Calling httpbin
 2023-09-09 12:06:54,007 (INFO) - playground.views - Received the response
+2023-09-09 12:14:55,258 (INFO) - django.utils.autoreload - /mnt/c/Users/Thoma/Documents/pythonProjects/courses/storefront3/manage.py changed, reloading.
+2023-09-09 12:15:37,185 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-09-09 12:15:37,322 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-09-09 12:16:03,328 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-09-09 12:16:03,335 (WARNING) - django.request - Forbidden: /store/collections/
+2023-09-09 12:16:03,342 (WARNING) - django.request - Bad Request: /store/collections/
+2023-09-09 12:17:19,329 (INFO) - django.utils.autoreload - /mnt/c/Users/Thoma/Documents/pythonProjects/courses/storefront3/storefront/settings/common.py changed, reloading.
+2023-09-09 12:17:20,151 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-09-09 12:17:20,303 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-09-09 12:17:34,866 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-09-09 12:17:35,147 (WARNING) - django.request - Forbidden: /store/collections/
+2023-09-09 12:17:35,445 (WARNING) - django.request - Bad Request: /store/collections/
+2023-09-09 12:18:47,373 (INFO) - django.utils.autoreload - /mnt/c/Users/Thoma/Documents/pythonProjects/courses/storefront3/storefront/settings/common.py changed, reloading.
+2023-09-09 12:18:48,122 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-09-09 12:18:48,273 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-09-09 12:19:05,332 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-09-09 12:19:05,613 (WARNING) - django.request - Forbidden: /store/collections/
+2023-09-09 12:19:05,882 (WARNING) - django.request - Bad Request: /store/collections/
