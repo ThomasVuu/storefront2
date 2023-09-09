@@ -5,3 +5,19 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /mnt/c/Users/Thoma/Documents/pythonProjects/courses/storefront3/storefront/settings.py changed, reloading.
 Watching for file changes with StatReloader
+/mnt/c/Users/Thoma/Documents/pythonProjects/courses/storefront3/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/c/Users/Thoma/Documents/pythonProjects/courses/storefront3/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/c/Users/Thoma/Documents/pythonProjects/courses/storefront3/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/c/Users/Thoma/Documents/pythonProjects/courses/storefront3/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/mnt/c/Users/Thoma/Documents/pythonProjects/courses/storefront3/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+Calling httpbin
+Received the response
+/mnt/c/Users/Thoma/Documents/pythonProjects/courses/storefront3/storefront/settings.py changed, reloading.
+2023-09-09 12:06:44,833 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-09-09 12:06:51,494 (INFO) - playground.views - Calling httpbin
+2023-09-09 12:06:54,007 (INFO) - playground.views - Received the response
