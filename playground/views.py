@@ -11,10 +11,3 @@ class HelloView(APIView):
         response = requests.get('https://httpbin.org/delay/2')
         data = response.json()
         return render(request, 'hello.html', {'name': 'Mosh'})
-
-
-@cache_page(5*60)
-def say_hello(request):
-    response = requests.get('https://httpbin.org/delay/2')
-    data = response.json()
-    return render(request, 'hello.html', {'name': data})
