@@ -178,7 +178,6 @@ ADMINS = [
     ('Mosh', 'admin@ttcvu.com')
 ]
 
-CELERY_BROKER_URL = 'redis://localhost:6379/1'
 CELERY_BEAT_SCHEDULE = {
     'notify_customer': {
         'task': 'playground.tasks.notify_customers',
